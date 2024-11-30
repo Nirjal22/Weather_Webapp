@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#div1 {
+    margin-top: 5%;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Card shadow */
+    text-align: center;
+}
+
+h1,
+p {
+    margin-bottom: 10px;
+}
+
+#btn1 {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
